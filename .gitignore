@@ -7,57 +7,57 @@ lib/pycocotools/_mask.so
 ## General
 
 # Compiled Object files
-faster-rcnn-caffe/*.slo
-faster-rcnn-caffe/*.lo
-faster-rcnn-caffe/*.o
-faster-rcnn-caffe/*.cuo
+caffe-fast-rcnn/*.slo
+caffe-fast-rcnn/*.lo
+caffe-fast-rcnn/*.o
+caffe-fast-rcnn/*.cuo
 
 # Compiled Dynamic libraries
-faster-rcnn-caffe/*.so
-faster-rcnn-caffe/*.dylib
+caffe-fast-rcnn/*.so
+caffe-fast-rcnn/*.dylib
 
 # Compiled Static libraries
-faster-rcnn-caffe/*.lai
-faster-rcnn-caffe/*.la
-faster-rcnn-caffe/*.a
+caffe-fast-rcnn/*.lai
+caffe-fast-rcnn/*.la
+caffe-fast-rcnn/*.a
 
 # Compiled protocol buffers
-faster-rcnn-caffe/*.pb.h
-faster-rcnn-caffe/*.pb.cc
-faster-rcnn-caffe/*_pb2.py
+caffe-fast-rcnn/*.pb.h
+caffe-fast-rcnn/*.pb.cc
+caffe-fast-rcnn/*_pb2.py
 
 # Compiled python
-faster-rcnn-caffe/*.pyc
+caffe-fast-rcnn/*.pyc
 
 # Compiled MATLAB
-faster-rcnn-caffe/*.mex*
+caffe-fast-rcnn/*.mex*
 
 # IPython notebook checkpoints
-faster-rcnn-caffe/.ipynb_checkpoints
+caffe-fast-rcnn/.ipynb_checkpoints
 
 # Editor temporaries
-faster-rcnn-caffe/*.swp
-faster-rcnn-caffe/*~
+caffe-fast-rcnn/*.swp
+caffe-fast-rcnn/*~
 
 # Sublime Text settings
-faster-rcnn-caffe/*.sublime-workspace
-faster-rcnn-caffe/*.sublime-project
+caffe-fast-rcnn/*.sublime-workspace
+caffe-fast-rcnn/*.sublime-project
 
 # Eclipse Project settings
-faster-rcnn-caffe/*.*project
-faster-rcnn-caffe/.settings
+caffe-fast-rcnn/*.*project
+caffe-fast-rcnn/.settings
 
 # QtCreator files
-faster-rcnn-caffe/*.user
+caffe-fast-rcnn/*.user
 
 # PyCharm files
-faster-rcnn-caffe/.idea
+caffe-fast-rcnn/.idea
 
 # Visual Studio Code files
-faster-rcnn-caffe/.vscode
+caffe-fast-rcnn/.vscode
 
 # OSX dir files
-faster-rcnn-caffe/.DS_Store
+caffe-fast-rcnn/.DS_Store
 
 ## Caffe
 
@@ -67,39 +67,39 @@ faster-rcnn-caffe/.DS_Store
 # Data and models are either
 # 1. reference, and not casually committed
 # 2. custom, and live on their own unless they're deliberated contributed
-faster-rcnn-caffe/data/*
-faster-rcnn-caffe/models/*
-faster-rcnn-caffe/*.caffemodel
-faster-rcnn-caffe/*.caffemodel.h5
-faster-rcnn-caffe/*.solverstate
-faster-rcnn-caffe/*.solverstate.h5
-faster-rcnn-caffe/*.binaryproto
-faster-rcnn-caffe/*leveldb
-faster-rcnn-caffe/*lmdb
+caffe-fast-rcnn/data/*
+caffe-fast-rcnn/models/*
+caffe-fast-rcnn/*.caffemodel
+caffe-fast-rcnn/*.caffemodel.h5
+caffe-fast-rcnn/*.solverstate
+caffe-fast-rcnn/*.solverstate.h5
+caffe-fast-rcnn/*.binaryproto
+caffe-fast-rcnn/*leveldb
+caffe-fast-rcnn/*lmdb
 
 # build, distribute, and bins (+ python proto bindings)
 build
-faster-rcnn-caffe/.build_debug/*
-faster-rcnn-caffe/.build_release/*
-faster-rcnn-caffe/distribute/*
-faster-rcnn-caffe/*.testbin
-faster-rcnn-caffe/*.bin
-faster-rcnn-caffe/python/caffe/proto/
-faster-rcnn-caffe/cmake_build
-faster-rcnn-caffe/.cmake_build
+caffe-fast-rcnn/.build_debug/*
+caffe-fast-rcnn/.build_release/*
+caffe-fast-rcnn/distribute/*
+caffe-fast-rcnn/*.testbin
+caffe-fast-rcnn/*.bin
+caffe-fast-rcnn/python/caffe/proto/
+caffe-fast-rcnn/cmake_build
+caffe-fast-rcnn/.cmake_build
 
 # Generated documentation
-faster-rcnn-caffe/docs/_site
-faster-rcnn-caffe/docs/_includes
-faster-rcnn-caffe/docs/gathered
-faster-rcnn-caffe/_site
-faster-rcnn-caffe/doxygen
-faster-rcnn-caffe/docs/dev
+caffe-fast-rcnn/docs/_site
+caffe-fast-rcnn/docs/_includes
+caffe-fast-rcnn/docs/gathered
+caffe-fast-rcnn/_site
+caffe-fast-rcnn/doxygen
+caffe-fast-rcnn/docs/dev
 
 # LevelDB files
-faster-rcnn-caffe/*.sst
-faster-rcnn-caffe/*.ldb
-faster-rcnn-caffe/LOCK
-faster-rcnn-caffe/LOG*
-faster-rcnn-caffe/CURRENT
-faster-rcnn-caffe/MANIFEST-*
+caffe-fast-rcnn/*.sst
+caffe-fast-rcnn/*.ldb
+caffe-fast-rcnn/LOCK
+caffe-fast-rcnn/LOG*
+caffe-fast-rcnn/CURRENT
+caffe-fast-rcnn/MANIFEST-*
