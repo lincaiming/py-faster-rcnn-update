@@ -5,6 +5,9 @@ lib/pycocotools/_mask.c
 lib/pycocotools/_mask.so
 .idea/*
 ## General
+data/faster_rcnn_models.tgz
+data/faster_rcnn_models
+data/VOCdevkit2007
 
 # Compiled Object files
 caffe-fast-rcnn/*.slo
