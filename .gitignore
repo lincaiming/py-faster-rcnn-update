@@ -1,0 +1,105 @@
+*.pyc
+.ipynb_checkpoints
+lib/build
+lib/pycocotools/_mask.c
+lib/pycocotools/_mask.so
+.idea/*
+## General
+
+# Compiled Object files
+faster-rcnn-caffe/*.slo
+faster-rcnn-caffe/*.lo
+faster-rcnn-caffe/*.o
+faster-rcnn-caffe/*.cuo
+
+# Compiled Dynamic libraries
+faster-rcnn-caffe/*.so
+faster-rcnn-caffe/*.dylib
+
+# Compiled Static libraries
+faster-rcnn-caffe/*.lai
+faster-rcnn-caffe/*.la
+faster-rcnn-caffe/*.a
+
+# Compiled protocol buffers
+faster-rcnn-caffe/*.pb.h
+faster-rcnn-caffe/*.pb.cc
+faster-rcnn-caffe/*_pb2.py
+
+# Compiled python
+faster-rcnn-caffe/*.pyc
+
+# Compiled MATLAB
+faster-rcnn-caffe/*.mex*
+
+# IPython notebook checkpoints
+faster-rcnn-caffe/.ipynb_checkpoints
+
+# Editor temporaries
+faster-rcnn-caffe/*.swp
+faster-rcnn-caffe/*~
+
+# Sublime Text settings
+faster-rcnn-caffe/*.sublime-workspace
+faster-rcnn-caffe/*.sublime-project
+
+# Eclipse Project settings
+faster-rcnn-caffe/*.*project
+faster-rcnn-caffe/.settings
+
+# QtCreator files
+faster-rcnn-caffe/*.user
+
+# PyCharm files
+faster-rcnn-caffe/.idea
+
+# Visual Studio Code files
+faster-rcnn-caffe/.vscode
+
+# OSX dir files
+faster-rcnn-caffe/.DS_Store
+
+## Caffe
+
+# User's build configuration
+#Makefile.config
+
+# Data and models are either
+# 1. reference, and not casually committed
+# 2. custom, and live on their own unless they're deliberated contributed
+faster-rcnn-caffe/data/*
+faster-rcnn-caffe/models/*
+faster-rcnn-caffe/*.caffemodel
+faster-rcnn-caffe/*.caffemodel.h5
+faster-rcnn-caffe/*.solverstate
+faster-rcnn-caffe/*.solverstate.h5
+faster-rcnn-caffe/*.binaryproto
+faster-rcnn-caffe/*leveldb
+faster-rcnn-caffe/*lmdb
+
+# build, distribute, and bins (+ python proto bindings)
+build
+faster-rcnn-caffe/.build_debug/*
+faster-rcnn-caffe/.build_release/*
+faster-rcnn-caffe/distribute/*
+faster-rcnn-caffe/*.testbin
+faster-rcnn-caffe/*.bin
+faster-rcnn-caffe/python/caffe/proto/
+faster-rcnn-caffe/cmake_build
+faster-rcnn-caffe/.cmake_build
+
+# Generated documentation
+faster-rcnn-caffe/docs/_site
+faster-rcnn-caffe/docs/_includes
+faster-rcnn-caffe/docs/gathered
+faster-rcnn-caffe/_site
+faster-rcnn-caffe/doxygen
+faster-rcnn-caffe/docs/dev
+
+# LevelDB files
+faster-rcnn-caffe/*.sst
+faster-rcnn-caffe/*.ldb
+faster-rcnn-caffe/LOCK
+faster-rcnn-caffe/LOG*
+faster-rcnn-caffe/CURRENT
+faster-rcnn-caffe/MANIFEST-*
